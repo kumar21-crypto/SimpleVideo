@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/videoId"
+        android:title="video"
+        android:icon="@drawable/video"
+        />
+
+    <item
+        android:id="@+id/folderId"
+        android:title="folder"
+        android:icon="@drawable/folder"
+        />
+
+    <item
+        android:id="@+id/filterId"
+        android:title="filter"
+        android:icon="@drawable/filter"
+        app:showAsAction="ifRoom"
+        />
+
+</menu>
