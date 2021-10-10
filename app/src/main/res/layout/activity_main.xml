@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/theme_bg"
     tools:context=".MainActivity">
 
 
@@ -12,17 +13,18 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:layout_above="@id/bottomNavigation"
-
-        />
+        android:layout_above="@id/bottomNavigation"/>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNavigation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:labelVisibilityMode="selected"
+        android:background="@color/card_bg"
+        app:itemTextColor="@drawable/tab_item"
+        app:itemIconTint="@drawable/tab_item"
         app:menu="@menu/bottommenu"
         android:layout_alignParentBottom="true"
-        />
+        android:theme="@style/Widget.BottomNavigationView"/>
 
 </RelativeLayout>

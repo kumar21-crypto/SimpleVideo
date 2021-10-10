@@ -4,19 +4,19 @@
 
     <item
         android:id="@+id/videoId"
-        android:title="video"
+        android:title="Video"
         android:icon="@drawable/video"
         />
 
     <item
         android:id="@+id/folderId"
-        android:title="folder"
+        android:title="Folder"
         android:icon="@drawable/folder"
         />
 
     <item
         android:id="@+id/filterId"
-        android:title="filter"
+        android:title="Filter"
         android:icon="@drawable/filter"
         app:showAsAction="ifRoom"
         />

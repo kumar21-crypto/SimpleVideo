@@ -10,7 +10,22 @@
         <item name="colorSecondaryVariant">@color/teal_200</item>
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
-        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/bg_varient</item>
         <!-- Customize your theme here. -->
+        <item name="android:navigationBarColor">@color/bg_varient</item>
     </style>
+
+    <style name="PlayerViewTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- primary brand color -->
+        <item name="colorPrimary">#E8252222</item>
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <style name="Widget.BottomNavigationView"
+        parent="Widget.Design.BottomNavigationView">
+        <item name="fontFamily">@font/merienda_bold</item>
+    </style>
+
 </resources>
